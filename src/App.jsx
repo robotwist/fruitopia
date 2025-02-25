@@ -14,10 +14,11 @@ function App() {
         <Route path="/" element={<Fruits />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="search" element={<FruitSearch />} />
       </Routes>
       <Footer />
     </>
   )
 }
-
+  
 export default App
